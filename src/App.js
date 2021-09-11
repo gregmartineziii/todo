@@ -1,10 +1,16 @@
-import React from "react";
+import React, {useState} from "react";
 import './App.css';
-
+import Form from "./components/Form";
+import TodoList from "./components/TodoList";
+//useless comment
 function App() {
   return (
     <div className="App">
-      <h1>Hello React</h1>
+      <header>
+        <h1>Brady's ToDo List</h1>
+      </header>
+      <Form />
+      <TodoList />
     </div>
   );
 }
